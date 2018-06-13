@@ -1,0 +1,75 @@
+body {
+    background-color: #242624;
+  }
+  #topBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    z-index: 2;
+    background-color: #1a561f;
+  }
+    #botBar{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    z-index: 2;
+    background-color: #1a561f;
+  } 
+  h1 {
+    color: #242624;
+    text-align: center;
+  }
+  li {
+    float: right;
+  }
+  li p{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;  
+  }
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+  }  
+  li a:hover {
+    background-color: #2e9b37;
+  }
+  li a.active {
+    background-color: #2e9b37;
+  }
+  
+  .isLink {
+    position: relative;
+    z-index: 2;
+  }
+  div {
+    position: relative;
+    background-color: #858985;
+    width: 900px;
+    height: 300px;
+    left: 20%;
+    z-index:1;
+    padding: 0px;
+    margin: 0px;
+}
+  #portfolio {
+    height: 600px;
+  }
+  #about {
+    background-color: #606360;
+  }
+  #contact {
+    background-color: #606360;
+    height: 500px;
+  }
