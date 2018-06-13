@@ -1,5 +1,7 @@
 body {
     background-color: #242624;
+    height: 100%;
+    width: 100%;
   }
   #topBar{
     position: fixed;
