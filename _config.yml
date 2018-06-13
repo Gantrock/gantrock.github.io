@@ -1,2 +1,3 @@
   name: Names are cool too I guess
   markdown: kramdown
+  permalink: /blog/:year/:month/:day/:title
