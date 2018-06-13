@@ -1,20 +1,24 @@
-body {
+body, html {
     background-color: #242624;
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
   }
   #topBar{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 99%;
     list-style-type: none;
+    margin: 0;
     padding: 15px;
     overflow: hidden;
     z-index: 2;
     background-color: #1a561f;
   }
-    #botBar{
-    width: 100%;
+  #botBar{
+    width: 99%;
     list-style-type: none;
     margin: 0;
     padding: 15px;
