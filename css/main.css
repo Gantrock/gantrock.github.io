@@ -6,7 +6,7 @@ body {
   #topBar{
     position: fixed;
     top: 0;
-    padding-top: 60px; 
+    padding-top: 30px; 
     width: 100%;
     list-style-type: none;
     z-index: 2;
@@ -15,8 +15,7 @@ body {
     #botBar{
     width: 100%;
     list-style-type: none;
-    margin: 0;
-    padding: 15px;
+    padding-bottom: 60px;
     z-index: 2;
     background-color: #1a561f;
   } 
