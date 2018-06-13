@@ -61,12 +61,11 @@ body, html {
   div {
     position: relative;
     background-color: #858985;
-    width: 900px;
+    margin: auto;
+    width: 50%;
     height: 300px;
-    left: 20%;
     z-index:1;
     padding: 0px;
-    margin: 0px;
 }
   #portfolio {
     height: 600px;
