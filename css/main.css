@@ -6,9 +6,10 @@ body {
   #topBar{
     position: fixed;
     top: 0;
-    padding-top: 30px; 
     width: 100%;
     list-style-type: none;
+    padding: 15px;
+    overflow: hidden;
     z-index: 2;
     background-color: #1a561f;
   }
