@@ -1,0 +1,10 @@
+---
+layout: post
+title: "name"
+date: YYYY-MM-DD
+---
+<!-- Remove this comment and save as HTML if actual post-->
+<ul>
+  <li><span style="color:#1a561f"><b>YYYY-MM-DD</b></span></li>
+  <li>Text</li>
+</ul>
