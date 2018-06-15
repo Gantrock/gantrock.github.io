@@ -53,6 +53,12 @@ body, html {
   li a.active {
     background-color: #2e9b37;
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
   
   .isLink {
     position: relative;
