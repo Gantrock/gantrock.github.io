@@ -43,6 +43,9 @@ body, html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;    
+  }
+  li a:visited {
+    background-color: #2e9b37;
   }  
   li a:hover {
     background-color: #2e9b37;
@@ -62,7 +65,8 @@ body, html {
   .left {
     float: left;
   }
-  div {
+
+  .postContent {
     position: relative;
     background-color: #858985;
     margin: auto;
@@ -70,7 +74,16 @@ body, html {
     height: 300px;
     z-index:1;
     padding: 0px;
-}
+  }
+  .content {
+    position: relative;
+    background-color: #858985;
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    z-index:1;
+    padding: 0px;
+  }
   #portfolio {
     height: 600px;
   }
