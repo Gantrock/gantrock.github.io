@@ -9,22 +9,27 @@ body, html {
   #topBar{
     position: fixed;
     top: 0;
-    width: 99%;
+    width: 100%;
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding: 0;
     overflow: hidden;
     z-index: 2;
     background-color: #1a561f;
   }
   #botBar{
-    width: 99%;
+    position: relative;
+    width: 100%;
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding: 0;
     overflow: hidden;
     z-index: 2;
     background-color: #1a561f;
+  }
+  #contentContainer{
+    position: relative;
+    top: 50px;
   } 
   h1 {
     color: #242624;
