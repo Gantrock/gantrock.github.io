@@ -1,6 +1,6 @@
 /*
-darkgray: #3538b0;
-lightgray: #c8c8fc;
+darkgray: #41415a;
+lightgray: #f4f5fa;
 blue: #1423ff;
 purple: #8714ff;
 archived colors:
@@ -9,9 +9,15 @@ darkteal: #456060;
 lightteal: #f0f7f7;
 orange: #ffac68;
 */
+:root {
+    --background: #ffffff;
+    --menus: #000000;
+    --base: #1423ff;
+    --accent: #ffac68;
+}
 body, html {
-    background-color: #c8c8fc;
-    color: #c8c8fc;
+    background-color: var(--background);
+    color: #000000;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -28,7 +34,7 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: #1423ff;
+    background-color: var(--menus);
   }
 /*base color*/
   #botBar{
@@ -40,15 +46,15 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: #1423ff;
+    background-color: var(--menus);
   }
   h1 {
-    color: base;
+    color: var(--base);
     text-align: center;
   }
   li p{
     display: block;
-    color: accent;
+    color: var(--accent);
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;  
@@ -65,11 +71,11 @@ body, html {
   }
 /*accent*/  
   li a:hover {
-    color: #8714ff;
+    color: var(--accent);
   }
 /*accent*/
   li a.active {
-    color: #8714ff;
+    color: var(--accent);
   }
 
   ul {
@@ -92,7 +98,7 @@ body, html {
 /*dark gray*/
   .postContent {
     position: relative;
-    background-color: #3538b0;
+    background-color: #f4f5fa;
     margin: auto;
     height: 300px;
     z-index:1;
@@ -101,7 +107,7 @@ body, html {
 /*dark gray*/
   .content {
     position: relative;
-    background-color: #3538b0;
+    background-color: #f4f5fa;
     z-index:1;
     padding: 0px;
   }
@@ -117,10 +123,10 @@ body, html {
   #portfolio {
     height: 600px;
   }
+  #contact {
+    height: 500px;
+  }
 /*  #about {
     background-color: #456060;
   }
-  #contact {
-    background-color: #456060;
-    height: 500px;
-  }*/
+*/
