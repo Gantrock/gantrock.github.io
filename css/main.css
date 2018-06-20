@@ -1,11 +1,18 @@
+/*background: #fefefe;
+darkgray: #456060;
+lightgray: #f0f7f7;
+blue: #58d8d8;
+orange: #ffac68;
+*/
 body, html {
-    background-color: #242624;
+    background-color: #f0f7f7;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     box-sizing: border-box;
   }
+/*base color*/
   #topBar{
     position: fixed;
     top: 0;
@@ -15,8 +22,9 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: #1a561f;
+    background-color: #58d8d8;
   }
+/*base color*/
   #botBar{
     position: absolute;
     botom: 0;
@@ -26,15 +34,15 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: #1a561f;
+    background-color: #58d8d8;
   }
   h1 {
-    color: #242624;
+    color: base;
     text-align: center;
   }
   li p{
     display: block;
-    color: white;
+    color: accent;
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;  
@@ -48,12 +56,14 @@ body, html {
   }
   li a:visited {
     background-color: #2e9b37;
-  }  
-  li a:hover {
-    background-color: #2e9b37;
   }
+/*accent*/  
+  li a:hover {
+    background-color: #ffac68;
+  }
+/*accent*/
   li a.active {
-    background-color: #2e9b37;
+    background-color: #ffac68;
   }
 
   ul {
@@ -73,18 +83,19 @@ body, html {
   .left {
     float: left;
   }
-
+/*dark gray*/
   .postContent {
     position: relative;
-    background-color: #858985;
+    background-color: #456060;
     margin: auto;
     height: 300px;
     z-index:1;
     padding: 0px;
   }
+/*dark gray*/
   .content {
     position: relative;
-    background-color: #858985;
+    background-color: #456060;
     z-index:1;
     padding: 0px;
   }
@@ -101,9 +112,9 @@ body, html {
     height: 600px;
   }
   #about {
-    background-color: #606360;
+    background-color: #456060;
   }
   #contact {
-    background-color: #606360;
+    background-color: #456060;
     height: 500px;
   }
