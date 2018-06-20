@@ -1,11 +1,15 @@
 /*background: #fefefe;
 darkgray: #456060;
+testLightGray: #cdeded;
 lightgray: #f0f7f7;
-blue: #58d8d8;
+teal: #58d8d8;
+lightteal: #aef8f8;
+darkteal: #229494;
 orange: #ffac68;
 */
 body, html {
-    background-color: #f0f7f7;
+    background-color: #aef8f8;
+    color: #ffac68;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -59,11 +63,11 @@ body, html {
   }
 /*accent*/  
   li a:hover {
-    background-color: #ffac68;
+    color: #ffac68;
   }
 /*accent*/
   li a.active {
-    background-color: #ffac68;
+    color: #ffac68;
   }
 
   ul {
@@ -86,7 +90,7 @@ body, html {
 /*dark gray*/
   .postContent {
     position: relative;
-    background-color: #456060;
+    background-color: #229494;
     margin: auto;
     height: 300px;
     z-index:1;
@@ -95,7 +99,7 @@ body, html {
 /*dark gray*/
   .content {
     position: relative;
-    background-color: #456060;
+    background-color: #229494;
     z-index:1;
     padding: 0px;
   }
@@ -111,10 +115,10 @@ body, html {
   #portfolio {
     height: 600px;
   }
-  #about {
+/*  #about {
     background-color: #456060;
   }
   #contact {
     background-color: #456060;
     height: 500px;
-  }
+  }*/
