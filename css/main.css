@@ -1,15 +1,17 @@
-/*background: #fefefe;
-darkgray: #456060;
-testLightGray: #cdeded;
-lightgray: #f0f7f7;
+/*
+darkgray: #3538b0;
+lightgray: #c8c8fc;
+blue: #1423ff;
+purple: #8714ff;
+archived colors:
 teal: #58d8d8;
-lightteal: #aef8f8;
-darkteal: #229494;
+darkteal: #456060;
+lightteal: #f0f7f7;
 orange: #ffac68;
 */
 body, html {
-    background-color: #aef8f8;
-    color: #ffac68;
+    background-color: #c8c8fc;
+    color: #c8c8fc;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -26,7 +28,7 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: #58d8d8;
+    background-color: #1423ff;
   }
 /*base color*/
   #botBar{
@@ -38,7 +40,7 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: #58d8d8;
+    background-color: #1423ff;
   }
   h1 {
     color: base;
@@ -63,11 +65,11 @@ body, html {
   }
 /*accent*/  
   li a:hover {
-    color: #ffac68;
+    color: #8714ff;
   }
 /*accent*/
   li a.active {
-    color: #ffac68;
+    color: #8714ff;
   }
 
   ul {
@@ -90,7 +92,7 @@ body, html {
 /*dark gray*/
   .postContent {
     position: relative;
-    background-color: #229494;
+    background-color: #3538b0;
     margin: auto;
     height: 300px;
     z-index:1;
@@ -99,7 +101,7 @@ body, html {
 /*dark gray*/
   .content {
     position: relative;
-    background-color: #229494;
+    background-color: #3538b0;
     z-index:1;
     padding: 0px;
   }
