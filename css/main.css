@@ -1,9 +1,13 @@
 /*
+darkgray: #325b67;
+lightgray: #f3d7c9;
+orange: #1423ff;
+blue: #8714ff;
+archived colors:
 darkgray: #41415a;
 lightgray: #f4f5fa;
 blue: #1423ff;
 purple: #8714ff;
-archived colors:
 teal: #58d8d8;
 darkteal: #456060;
 lightteal: #f0f7f7;
@@ -12,12 +16,14 @@ orange: #ffac68;
 :root {
     --background: #ffffff;
     --menus: #000000;
+    --darkGray: #41415a;
+    --lightGray: #c8d3d8;
     --base: #1423ff;
     --accent: #ffac68;
 }
 body, html {
     background-color: var(--background);
-    color: #000000;
+    color: var(--darkGray);
     margin: 0;
     padding: 0;
     height: 100%;
@@ -38,8 +44,8 @@ body, html {
   }
 /*base color*/
   #botBar{
-    position: absolute;
-    botom: 0;
+    position: relative;
+    bottom: 0;
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -52,6 +58,11 @@ body, html {
     color: var(--base);
     text-align: center;
   }
+
+  .logo {
+    color: #1423ff;
+  }
+
   li p{
     display: block;
     color: var(--accent);
@@ -98,7 +109,7 @@ body, html {
 /*dark gray*/
   .postContent {
     position: relative;
-    background-color: #f4f5fa;
+    background-color: var(--background);
     margin: auto;
     height: 300px;
     z-index:1;
@@ -107,7 +118,7 @@ body, html {
 /*dark gray*/
   .content {
     position: relative;
-    background-color: #f4f5fa;
+    background-color: var(--background);
     z-index:1;
     padding: 0px;
   }
@@ -119,6 +130,7 @@ body, html {
     margin: auto;
     top: 20px;
     width: 85%;
+    min-height: 100vh;
   } 
   #portfolio {
     height: 600px;
