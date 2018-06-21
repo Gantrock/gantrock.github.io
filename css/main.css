@@ -18,8 +18,8 @@ orange: #ffac68;
     --menus: #000000;
     --darkGray: #41415a;
     --lightGray: #c8d3d8;
-    --base: #1423ff;
-    --accent: #ffac68;
+    --base: #ffac68;
+    --accent: #1423ff;
 }
 body, html {
     background-color: var(--background);
