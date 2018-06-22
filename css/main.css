@@ -15,11 +15,12 @@ orange: #ffac68;
 */
 :root {
     --background: #ffffff;
-    --menus: #000000;
-    --darkGray: #41415a;
-    --lightGray: #c8d3d8;
-    --base: #ffac68;
-    --accent: #1423ff;
+    --menus: #55443a;
+    --darkGray: #55443a;
+    --lightGray: #faf6f5;
+    --base: #ff9e3b;
+    --accent: #32a4c4;
+    --lightAccent: #05b2e3;
 }
 body, html {
     background-color: var(--background);
@@ -40,7 +41,7 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: var(--menus);
+    background-color: var(--base);
   }
 /*base color*/
   #botBar{
@@ -52,7 +53,12 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: var(--menus);
+    background-color: var(--base);
+  }
+
+  .head {
+    background-color: var(--base);
+    color: white;
   }
   h1 {
     color: var(--base);
@@ -65,9 +71,9 @@ body, html {
 
   li p{
     display: block;
-    color: var(--accent);
+    color: var(--darkGray);
     text-align: center;
-    padding: 12px 14px;
+    padding: 14px 16px;
     text-decoration: none;  
   }
   li a{
@@ -84,11 +90,24 @@ body, html {
   li a:hover {
     color: var(--accent);
   }
+
 /*accent*/
   li a.active {
     color: var(--accent);
   }
 
+  a:link {
+    color: var(--base);
+  }
+  a:visited {
+    color: var(--darkGray);
+  }
+  a:hover {
+    color: var(--accent);
+  }
+  a:active {
+    color: var(--lightAccent);
+  }
   ul {
     list-style-type: none;
     margin: 0;
@@ -109,16 +128,16 @@ body, html {
 /*dark gray*/
   .postContent {
     position: relative;
-    background-color: var(--background);
+    background-color: var(--lightGray);
     margin: auto;
-    height: 300px;
+    height: 200px;
     z-index:1;
     padding: 0px;
   }
 /*dark gray*/
   .content {
     position: relative;
-    background-color: var(--background);
+    background-color: var(--lightGray);
     z-index:1;
     padding: 0px;
   }
@@ -129,8 +148,9 @@ body, html {
     position: relative;
     margin: auto;
     top: 20px;
-    width: 85%;
+    width: 65%;
     min-height: 100vh;
+    padding-bottom: 50px;
   } 
   #portfolio {
     height: 600px;
