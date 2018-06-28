@@ -23,7 +23,7 @@ orange: #ffac68;
     --lightAccent: #05b2e3;
 }
 body, html {
-    background-color: var(--background);
+    background-color: var(--lightGray);
     color: var(--darkGray);
     margin: 0;
     padding: 0;
@@ -59,6 +59,8 @@ body, html {
   .head {
     background-color: var(--base);
     color: white;
+    list-style-type: none;
+    font-weight: bold;
   }
   h1 {
     color: var(--base);
@@ -128,7 +130,7 @@ body, html {
 /*dark gray*/
   .postContent {
     position: relative;
-    background-color: var(--lightGray);
+    background-color: var(--background);
     margin: auto;
     height: 200px;
     z-index:1;
@@ -137,7 +139,7 @@ body, html {
 /*dark gray*/
   .content {
     position: relative;
-    background-color: var(--lightGray);
+    background-color: var(--background);
     z-index:1;
     padding: 0px;
   }
