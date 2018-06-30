@@ -11,7 +11,7 @@ $lightAccent: #05b2e3;
 
 body, html {
     background-color: $background;
-    color: var($darkGray);
+    color: $darkGray;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -59,7 +59,7 @@ body, html {
   li{
 	  &:p {
 		display: block;
-		color: var($darkGray);
+		color: $darkGray;
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;  
@@ -97,7 +97,7 @@ body, html {
     color: $accent;
     }
 	&:active {
-    color: var(--lightAccent);
+    color: $lightAccent;
     }
   }
 
