@@ -23,7 +23,7 @@ orange: #ffac68;
     --lightAccent: #05b2e3;
 }
 body, html {
-    background-color: var(--background);
+    background-color: var(--lightAccent);
     color: var(--darkGray);
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: var(--accent);
+    background-color: var(--base);
   }
 /*base color*/
   #botBar{
