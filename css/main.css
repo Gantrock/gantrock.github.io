@@ -23,7 +23,7 @@ orange: #ffac68;
     --lightAccent: #05b2e3;
 }
 body, html {
-    background-color: var(--lightAccent);
+    background-color: #05b2e3;//var(--background);
     color: var(--darkGray);
     margin: 0;
     padding: 0;
