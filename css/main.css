@@ -88,7 +88,7 @@ body, html {
   }
 /*accent*/  
   li a:hover {
-    color: var(--darkGray);
+    color: var(--accent);
   }
 
 /*accent*/
@@ -97,7 +97,7 @@ body, html {
   }
 
   a:link {
-    color: var(--darkGray);
+    color: var(--base);
   }
   a:visited {
     color: var(--darkGray);
