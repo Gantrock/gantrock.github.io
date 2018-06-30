@@ -1,0 +1,17 @@
+//Archived hex colors by group
+
+darkgray: #325b67;
+lightgray: #f3d7c9;
+orange: #1423ff;
+blue: #8714ff;
+
+
+darkgray: #41415a;
+lightgray: #f4f5fa;
+blue: #1423ff;
+purple: #8714ff;
+
+teal: #58d8d8;
+darkteal: #456060;
+lightteal: #f0f7f7;
+orange: #ffac68;
