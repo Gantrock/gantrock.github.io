@@ -97,7 +97,7 @@ body, html {
   }
 
   a:link {
-    color: var(--base);
+    color: var(--darkGray);
   }
   a:visited {
     color: var(--darkGray);
