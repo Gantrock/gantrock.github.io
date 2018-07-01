@@ -60,11 +60,8 @@ body, html {
   
   a{
 	&:link {
-     color: $base;
+     color: $darkGray;
 	}
-	&:visited {
-    color: $darkGray;
-    }
 	&:hover {
     color: $accent;
     }
