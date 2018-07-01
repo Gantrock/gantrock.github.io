@@ -8,6 +8,7 @@ $lightGray: #faf6f5;
 $base: #ff9e3b;
 $accent: #32a4c4;
 $lightAccent: #05b2e3;
+$red: #ff0000;
 
 body, html {
     background-color: $background;
@@ -90,10 +91,10 @@ body, html {
 	margin-left: 10px;
 	margin-right: 10px;
 		&:link {
-			color: $darkGray;
+			color: $red;
 		}
 		$:visited {
-			color: $darkGray;
+			color: $red;
 		}
 		&:hover {
 			color: $accent;
