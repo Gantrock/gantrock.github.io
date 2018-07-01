@@ -86,22 +86,7 @@ body, html {
 		color: $accent;
     }
   }
-  .liGroup {
-	margin-left: 10px;
-	margin-right: 10px;
-		&:link {
-			color: $red;
-		}
-		&:visited {
-			color: $red;
-		}
-		&:hover {
-			color: $accent;
-		}
-		&:active {
-			color: $lightAccent;
-		}
-  }
+  
   a{
 	&:link {
      color: $base;
@@ -115,6 +100,23 @@ body, html {
 	&:active {
     color: $lightAccent;
     }
+  }
+  
+  .liGroup {
+	/*margin-left: 10px;*/
+	/*margin-right: 10px;*/
+		&:link {
+			color: $red;
+		}
+		&:visited {
+			color: $red;
+		}
+		&:hover {
+			color: $accent;
+		}
+		&:active {
+			color: $lightAccent;
+		}
   }
 
   ul {
