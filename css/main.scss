@@ -72,6 +72,21 @@ body, html {
     color: $lightAccent;
     }
   }
+  
+  .blogLink{
+	&:link {
+     color: $base;
+	}
+	&:visited {
+    color: $darkGray;
+    }
+	&:hover {
+    color: $accent;
+    }
+	&:active {
+    color: $lightAccent;
+    }
+  }
 
   ul {
     list-style-type: none;
