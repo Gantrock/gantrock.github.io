@@ -5,14 +5,19 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-<ul id="topBar">
+<div class="liGroup" id="topBar" style="width:100%">
   <!-- Should be link from logo in live version -->
-  <li class="liGroup logo"><a href="\blog">Home</a></li>
+  <button style="width:25%"><a href="\blog">Home</a></button>
+  <button style="width:25%"><a href="\about">About</a></button>
+  <button style="width:25%"><a href="\blog">Blog</a></button>
+  <button style="width:25%"><a href="\products">Products</a></button>
+  <button style="width:25%"><a href="\contact">Contact</a></button>
+  /*<li class="liGroup logo"><a href="\blog">Home</a></li>
   <li class="liGroup"><a href="\about">About Us</a></li>
   <li class="liGroup"><a href="\blog">Blog</a></li>
   <li class="liGroup"><a href="\products">Products</a></li>
   <li class="liGroup"><a href="\contact">Contact Us</a></li>  
-</ul>
+</ul>*/</div>
 <div id="contentContainer">
     {{ content }}
 </div>
