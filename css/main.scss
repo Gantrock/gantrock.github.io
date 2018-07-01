@@ -94,7 +94,10 @@ body, html {
     margin: 0;
     padding: 0;
 	&:li {
-		color: $darkGray;		
+		color: $darkGray;
+		&:visited {
+		color: $darkGray;
+		}
 		&:hover {
 		color: $accent;
 		}
