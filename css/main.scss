@@ -82,6 +82,8 @@ body, html {
     margin: 0;
     padding: 0;
 	&:li {
+	left-margin: 5px;
+	right-margin: 5px;
 		color: $darkGray;
 		&:visited {
 		color: $darkGray;
