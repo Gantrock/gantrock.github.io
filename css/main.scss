@@ -62,18 +62,6 @@ body, html {
     color: #1423ff;
   }
   
-  li{
-	&:link {
-     color: $darkGray;
-	}
-	&:hover {
-    color: $accent;
-    }
-	&:active {
-    color: $lightAccent;
-    }
-  }
-  
   .blogLink{
 	&:link {
      color: $base;
