@@ -57,6 +57,40 @@ body, html {
   .logo {
     color: #1423ff;
   }
+  
+  a{
+	&:link {
+     color: $base;
+	}
+	&:visited {
+    color: $darkGray;
+    }
+	&:hover {
+    color: $accent;
+    }
+	&:active {
+    color: $lightAccent;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .isLink {
+    position: relative;
+    z-index: 2;
+  }
+
+  .right {
+    float: right;
+  }
+  .left {
+    float: left;
+  }
+  
   li{
 	  &:p {
 		display: block;
@@ -87,59 +121,6 @@ body, html {
     }
   }
   
-  a{
-	&:link {
-     color: $base;
-	}
-	&:visited {
-    color: $darkGray;
-    }
-	&:hover {
-    color: $accent;
-    }
-	&:active {
-    color: $lightAccent;
-    }
-  }
-  
-  .buttonGroup button{
-	border: 1px solid $red;
-	color: $darkGray;
-	float: left;
-		&:not(:last-child) {
-			border-right: none;
-		}
-		
-		&:after {
-			content: "";
-			clear: both;
-			display: table;
-		}
-		&:hover {
-			color: $accent;
-		}
-		&:active {
-			color: $lightAccent;
-		}
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .isLink {
-    position: relative;
-    z-index: 2;
-  }
-
-  .right {
-    float: right;
-  }
-  .left {
-    float: left;
-  }
 /*dark gray*/
   .postContent {
     position: relative;
