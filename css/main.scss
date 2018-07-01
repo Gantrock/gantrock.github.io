@@ -93,6 +93,15 @@ body, html {
     list-style-type: none;
     margin: 0;
     padding: 0;
+	&:li {
+		color: $darkGray;		
+		&:hover {
+		color: $accent;
+		}
+		&:active {
+		color: $lightAccent;
+		}
+	}
   }
   
   .isLink {
