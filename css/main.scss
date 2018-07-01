@@ -85,13 +85,13 @@ body, html {
 	left-margin: 5px;
 	right-margin: 5px;
 		color: $darkGray;
-		&:visited {
+		li:visited {
 		color: $darkGray;
 		}
-		&:hover {
+		li:hover {
 		color: $accent;
 		}
-		&:active {
+		li:active {
 		color: $lightAccent;
 		}
 	}
