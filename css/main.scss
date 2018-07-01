@@ -102,14 +102,18 @@ body, html {
     }
   }
   
-  .liGroup {
-	/*margin-left: 10px;*/
-	/*margin-right: 10px;*/
-		&:link {
-			color: $red;
+  .liGroup li{
+	border: 1px solid $red;
+	color: $darkGray;
+	float: left;
+		&:not(:last-child) {
+			border-right: none;
 		}
-		&:visited {
-			color: $red;
+		
+		&:after {
+			content: "";
+			clear: both;
+			display: table;
 		}
 		&:hover {
 			color: $accent;
