@@ -85,10 +85,25 @@ body, html {
     color: $accent;
     }
   }
-
+  .buttonGroup {
+	&:button {
+		&:link {
+			color: $darkGray;
+		}
+		$:visited {
+			color: $darkGray;
+		}
+		&:hover {
+			color: $accent;
+		}
+		&:active {
+			color: $lightAccent;
+		}
+	}
+  }
   a{
 	&:link {
-     color: $darkGray;
+     color: $base;
 	}
 	&:visited {
     color: $darkGray;
