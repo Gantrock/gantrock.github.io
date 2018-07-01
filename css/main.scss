@@ -86,8 +86,8 @@ body, html {
     color: $accent;
     }
   }
-  .buttonGroup {
-	&:button {
+  .liGroup {
+	&:li {
 	margin-left: 10px;
 	margin-right: 10px;
 		&:link {
