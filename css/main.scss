@@ -31,6 +31,10 @@ body, html {
     overflow: hidden;
     z-index: 2;
     background-color: $base;
+	
+	&:li {
+		color: $lightGray;
+	}
   }
 /*base color*/
   #botBar{
@@ -120,15 +124,15 @@ body, html {
 		text-decoration: none;    
 	}
 	
-	&:a:visited {
+		&:a:visited {
 		background-color: #2e9b37;
     }
 	
-	&:a:hover {
+		&:a:hover {
 		color: $darkGray;
     }
 	
-	&:a.active {
+		&:a.active {
 		color: $accent;
     }
   }
