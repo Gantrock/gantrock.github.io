@@ -1,30 +1,23 @@
-/*
-darkgray: #325b67;
-lightgray: #f3d7c9;
-orange: #1423ff;
-blue: #8714ff;
-archived colors:
-darkgray: #41415a;
-lightgray: #f4f5fa;
-blue: #1423ff;
-purple: #8714ff;
-teal: #58d8d8;
-darkteal: #456060;
-lightteal: #f0f7f7;
-orange: #ffac68;
-*/
-:root {
-    --background: #ffffff;
-    --menus: #55443a;
-    --darkGray: #55443a;
-    --lightGray: #faf6f5;
-    --base: #ff9e3b;
-    --accent: #32a4c4;
-    --lightAccent: #05b2e3;
-}
+---
+---
+
+$background: #ffffff;
+$menus: #55443a;
+$darkGray: #55443a;
+$lightGray: #faf6f5;
+$base: #ff9e3b;
+$accent: #32a4c4;
+$lightAccent: #05b2e3;
+$red: #ff0000;
+
 body, html {
+<<<<<<< HEAD:css/main.css
     background-color: var(--lightGray);
     color: var(--darkGray);
+=======
+    background-color: $background;
+    color: $darkGray;
+>>>>>>> 7c4d857cef5ef0cda14b3c346739aac9824a1e85:css/main.scss
     margin: 0;
     padding: 0;
     height: 100%;
@@ -36,12 +29,17 @@ body, html {
     position: fixed;
     top: 0;
     width: 100%;
+    color: $accent;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: var(--base);
+    background-color: $base;
+	
+	&:li {
+		color: $lightGray;
+	}
   }
 /*base color*/
   #botBar{
@@ -53,67 +51,57 @@ body, html {
     padding: 0;
     overflow: hidden;
     z-index: 2;
-    background-color: var(--base);
+    background-color: $base;
   }
 
   .head {
-    background-color: var(--base);
+    background-color: $base;
     color: white;
     list-style-type: none;
     font-weight: bold;
   }
   h1 {
-    color: var(--base);
+    color: $base;
     text-align: center;
   }
 
   .logo {
     color: #1423ff;
   }
-
-  li p{
-    display: block;
-    color: var(--darkGray);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;  
-  }
-  li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;    
-  }
-  li a:visited {
-    background-color: #2e9b37;
-  }
-/*accent*/  
-  li a:hover {
-    color: var(--accent);
+  
+  .blogLink{
+	&:link {
+     color: $base;
+	}
+	&:visited {
+    color: $darkGray;
+    }
+	&:hover {
+    color: $accent;
+    }
+	&:active {
+    color: $lightAccent;
+    }
   }
 
-/*accent*/
-  li a.active {
-    color: var(--accent);
-  }
-
-  a:link {
-    color: var(--base);
-  }
-  a:visited {
-    color: var(--darkGray);
-  }
-  a:hover {
-    color: var(--accent);
-  }
-  a:active {
-    color: var(--lightAccent);
-  }
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+	&:li {
+	left-margin: 5px;
+	right-margin: 5px;
+		color: $darkGray;
+		li:visited {
+		color: $darkGray;
+		}
+		li:hover {
+		color: $accent;
+		}
+		li:active {
+		color: $lightAccent;
+		}
+	}
   }
   
   .isLink {
@@ -127,10 +115,45 @@ body, html {
   .left {
     float: left;
   }
+  
+  li{
+	  &:p {
+		display: block;
+		color: $darkGray;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;  
+	  }
+	  
+	  &:a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;    
+	}
+	
+		&:a:visited {
+		background-color: #2e9b37;
+    }
+	
+		&:a:hover {
+		color: $darkGray;
+    }
+	
+		&:a.active {
+		color: $accent;
+    }
+  }
+  
 /*dark gray*/
   .postContent {
     position: relative;
+<<<<<<< HEAD:css/main.css
     background-color: var(--background);
+=======
+    background-color: $lightGray;
+>>>>>>> 7c4d857cef5ef0cda14b3c346739aac9824a1e85:css/main.scss
     margin: auto;
     height: 200px;
     z-index:1;
@@ -139,7 +162,11 @@ body, html {
 /*dark gray*/
   .content {
     position: relative;
+<<<<<<< HEAD:css/main.css
     background-color: var(--background);
+=======
+    background-color: $lightGray;
+>>>>>>> 7c4d857cef5ef0cda14b3c346739aac9824a1e85:css/main.scss
     z-index:1;
     padding: 0px;
   }
