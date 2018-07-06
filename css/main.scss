@@ -11,13 +11,8 @@ $lightAccent: #05b2e3;
 $red: #ff0000;
 
 body, html {
-<<<<<<< HEAD:css/main.css
-    background-color: var(--lightGray);
-    color: var(--darkGray);
-=======
     background-color: $background;
     color: $darkGray;
->>>>>>> 7c4d857cef5ef0cda14b3c346739aac9824a1e85:css/main.scss
     margin: 0;
     padding: 0;
     height: 100%;
@@ -29,18 +24,33 @@ body, html {
     position: fixed;
     top: 0;
     width: 100%;
-    color: $accent;
+    color: $darkGray;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     z-index: 2;
     background-color: $base;
-	
-	&:li {
-		color: $lightGray;
-	}
+	  
+	  a{
+	    -webkit-appearance: button;
+		-moz-appearance: button;
+	    appearance: button;
+		background: none;
+		background-color: $base;
+		color: $darkGray;
+		right-padding: 5px;
+		border: 2px solid transparent;
+		box-sizing: border-box;
+		float: left;	  
+	    &:hover{
+	      color: $accent;
+	    }		
+	  }
+	  
   }
+  
+	  
 /*base color*/
   #botBar{
     position: relative;
@@ -112,9 +122,6 @@ body, html {
   .right {
     float: right;
   }
-  .left {
-    float: left;
-  }
   
   li{
 	  &:p {
@@ -149,11 +156,7 @@ body, html {
 /*dark gray*/
   .postContent {
     position: relative;
-<<<<<<< HEAD:css/main.css
-    background-color: var(--background);
-=======
     background-color: $lightGray;
->>>>>>> 7c4d857cef5ef0cda14b3c346739aac9824a1e85:css/main.scss
     margin: auto;
     height: 200px;
     z-index:1;
@@ -162,11 +165,7 @@ body, html {
 /*dark gray*/
   .content {
     position: relative;
-<<<<<<< HEAD:css/main.css
-    background-color: var(--background);
-=======
     background-color: $lightGray;
->>>>>>> 7c4d857cef5ef0cda14b3c346739aac9824a1e85:css/main.scss
     z-index:1;
     padding: 0px;
   }
