@@ -5,15 +5,36 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
+    <div id="splash"><p>Test</p><!--<img src="http://res.cloudinary.com/ds8ujmbao/image/upload/c_scale,h_0.4,w_1.0/a_0/v1530832321/20180326_195018.jpg"/>-->
+    </div>
+<nav id="navbar" class="collapse navbar-colapse">
+  <ul class="nav navbar-nav">
+    {% assign links = site.data.navigation %}
+    {% for link in links %}
+      {%assign class = nil %}
+      {% if page.url contains link.url %}
+        {% assign class = 'active' %}
+      {% endif %}
+      <li class="{{ class }}">
+        <a href="{{ site.url}}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
 <div id="topBar" >
-  <!-- Should be link from logo in live version -->
   <a class="logo" href='\blog'>(o)</a>
   <a href='\about'>About Us</a>
   <a href='\blog'>Blog</a>
   <a href='\products'>Products</a>
-  <a href='\contact'>Contact</a> 
+  <a href='\contact'>Contact</a>
 </div>
-<div id="splash"><img src="http://res.cloudinary.com/ds8ujmbao/image/upload/c_scale,h_0.1,w_1.0/a_0/v1530832321/20180326_195018.jpg"/></div>
+<!--<div id="navBar">
+  <a class="logo" href='\blog'>(o)</a>
+  <a href='\about'>About Us</a>
+  <a href='\blog'>Blog</a>
+  <a href='\products'>Products</a>
+  <a href='\contact'>Contact</a>-->
+</div>
 <div id="contentContainer">
     {{ content }}
 </div>

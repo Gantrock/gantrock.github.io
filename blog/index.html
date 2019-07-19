@@ -2,6 +2,14 @@
 layout: default
 title: Sean's Blog
 ---
+<head>
+<!DOCTYPE html>
+<html lang="en">
+  ...
+  ...
+  <link rel="stylesheer" href="/css.main.scss">
+</head>
+  <body>
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}" class="blogLink">{{ post.title }}</a></h1>
@@ -27,6 +35,7 @@ title: Sean's Blog
     <span class="next ">Next</span>
   {% endif %}
 </div>
+</body>
 <!--
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
