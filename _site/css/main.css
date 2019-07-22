@@ -1,0 +1,60 @@
+body, html { background-color: #ffffff; color: #55443a; margin: 0; height: 100%; width: 100%; box-sizing: border-box; }
+
+#navBar { visibility: hidden; position: fixed; top: 200; width: 10%; list-style-type: none; margin: 0; padding: 0; overflow: hidden; z-index: 2; background-color: #ff9e3b; }
+#navBar li a { display: block; width: 60px; background-color: #ff9e3b; color: #55443a; border: 2px solid transparent; }
+#navBar li a:hover { color: #32a4c4; background-color: #55443a; }
+
+/*base color*/
+#topBar { visibility: hidden; position: fixed; top: 0; width: 100%; color: #55443a; min-height: 5vh; margin: 0; padding: 0; overflow: hidden; z-index: 2; background-color: #ff9e3b; }
+#topBar a { background-color: #ff9e3b; width: 5em; height: 5em; text-decoration: none; color: #55443a; text-align: center; line-height: 5em; border: 2px solid transparent; float: left; }
+#topBar a:hover { color: #32a4c4; background-color: #55443a; }
+
+#splash { width: 100%; height: 100%; border: none; margin: 0; padding: 0; overflow: hidden; background-image: url(http://res.cloudinary.com/ds8ujmbao/image/upload/c_scale,h_0.4,w_1.0/a_0/v1530832321/20180326_195018.jpg); background-color: #ffffff; text-align: center; color: red; }
+#splash img { width: 100%; }
+
+/*base color*/
+#botBar { position: relative; bottom: 0; width: 100%; list-style-type: none; margin: 0; padding: 0; overflow: hidden; z-index: 2; background-color: #ff9e3b; }
+
+.head { background-color: #ff9e3b; color: white; list-style-type: none; font-weight: bold; }
+
+h1 { color: #ff9e3b; text-align: center; }
+
+.logo { color: #1423ff; }
+
+.blogLink:link { color: #ff9e3b; }
+.blogLink:visited { color: #55443a; }
+.blogLink:hover { color: #32a4c4; }
+.blogLink:active { color: #05b2e3; }
+
+ul { list-style-type: none; margin: 0; padding: 0; }
+ul:li { left-margin: 5px; right-margin: 5px; color: #55443a; }
+ul:li li:visited { color: #55443a; }
+ul:li li:hover { color: #32a4c4; }
+ul:li li:active { color: #05b2e3; }
+
+.isLink { position: relative; z-index: 2; }
+
+.right { float: right; }
+
+li:p { display: block; color: #55443a; text-align: center; padding: 14px 16px; text-decoration: none; }
+li:a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+li:a:visited { background-color: #2e9b37; }
+li:a:hover { color: #55443a; }
+li:a.active { color: #32a4c4; }
+
+/*dark gray*/
+.postContent { position: relative; background-color: #faf6f5; margin: auto; height: 200px; z-index: 1; padding: 0px; }
+
+/*dark gray*/
+.content { position: relative; background-color: #faf6f5; z-index: 1; padding: 0px; }
+
+.centerText { transform: translateX(50%) translateY(50%); }
+
+#contentContainer { position: relative; margin: auto; top: 20px; width: 65%; min-height: 100vh; padding-bottom: 50px; }
+
+#portfolio { height: 600px; }
+
+#contact { height: 500px; }
+
+/*  #about { background-color: #456060; }
+*/
